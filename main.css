@@ -49,6 +49,10 @@ em {
 }
 
 .flex-image figcaption {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> fb5de00fd207cf9d8b26cd79c7f990564b9ffb8f
   background-color: rgba(250, 250, 250, 0.9);
   position: relative;
   bottom: 50%;
@@ -72,9 +76,22 @@ em {
 }
 
 .flex-image h4 {
+<<<<<<< HEAD
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+=======
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #232323;
+}
+
+.flex-image span {
+  font-size: 18px;
+  font-style: italic;
+  display: block;
+  color: #555555;
+>>>>>>> fb5de00fd207cf9d8b26cd79c7f990564b9ffb8f
 }
 
 .flex-image i {
@@ -91,8 +108,17 @@ em {
   margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .flex-image i:hover {
   opacity: 0.75;
+=======
+.flex-image a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+>>>>>>> fb5de00fd207cf9d8b26cd79c7f990564b9ffb8f
 }
 
 .flex-image:hover figcaption,
@@ -111,6 +137,23 @@ em {
   opacity: 0.9;
 }
 
+<<<<<<< HEAD
+=======
+.flex-container::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.flex-container::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+  border-radius: 10px;
+}
+
+.flex-container::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 10px;
+}
+
+>>>>>>> fb5de00fd207cf9d8b26cd79c7f990564b9ffb8f
 
 
 /* Large screens
